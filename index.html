@@ -1,0 +1,10 @@
+var gitalk = new Gitalk({
+    clientID: 'b00fde62f45795db46b8', // clientID 
+    clientSecret: '42d944b376fe987191a5faea5877742de4fe3042', // clientSecret
+    repo: 'gitalk-comments', // 评论仓库名
+    owner: 'tiamo-sukky',
+    admin: ['tiamo-sukky'], // 管理人
+    id: location.pathname, // 返回当前 URL 的路径部分作为id
+    language:'zh-CN', // 语言
+    distractionFreeMode: false  // 无干扰模式
+})
